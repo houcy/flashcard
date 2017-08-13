@@ -21,6 +21,7 @@ Page({
     }
     this.data.currWordId += 1
     this.setData({
+      displayType: 0,
       currWordId: this.data.currWordId
     })
     this.playSound()
