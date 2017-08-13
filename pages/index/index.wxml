@@ -5,6 +5,6 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="button">
-    <button bindtap="enterFlashcardPage">Flashcard</button>
+    <button type="primary" bindtap="enterFlashcardPage">Flashcard</button>
   </view>
 </view>

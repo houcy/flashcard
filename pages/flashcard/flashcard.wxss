@@ -17,10 +17,9 @@
 }
 
 .card-text {
-  text-align: center;
+  font-size: 1.2em;
 }
 
 .button {
-  position: absolute;
-  bottom: 200rpx;
+  margin-top: 200rpx;
 }
