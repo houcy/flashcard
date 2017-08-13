@@ -1,7 +1,0 @@
-<template name="i">
-  <text>{{text}}</text>
-</template>
-
-<template name="i2">
-  <text>{{text}}2</text>
-</template>

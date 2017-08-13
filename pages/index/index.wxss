@@ -16,6 +16,7 @@
   color: #aaa;
 }
 
-.usermotto {
-  margin-top: 200px;
+.button {
+  position: absolute;
+  bottom: 300rpx;
 }

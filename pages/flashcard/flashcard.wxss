@@ -1,0 +1,26 @@
+/* pages/flashcard/flashcard.wxss */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 70%;
+  height: flex;
+  
+  padding-top: 200rpx;
+  padding-bottom: 200rpx;
+
+  border-bottom: 5rpx solid lightgray;
+  border-right: 5rpx solid lightgray;
+
+  background-color: whitesmoke;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  bottom: 200rpx;
+}
