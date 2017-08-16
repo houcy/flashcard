@@ -1,9 +1,12 @@
 <!--pages/flashcard/flashcard.wxml-->
 <view class="container">
   <view  bindtap="flipCard" class="card">
-    <text class="card-text">{{wordList[currWordId - 1][displayType]}}</text>
+    <text catchtap="playSound" class="card-text">{{wordList[currWordId - 1][displayType]}}</text>
   </view>
+
   <view class="button">
     <button bindtap="nextWord">Next Word</button>
   </view>
+
+  <!--<audio src="{{src}}" id="myAudio" controls="False"></audio>-->
 </view>

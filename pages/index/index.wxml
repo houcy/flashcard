@@ -7,4 +7,7 @@
   <view class="button">
     <button type="primary" bindtap="enterFlashcardPage">Flashcard</button>
   </view>
+  <!--<view class="button">
+    <button type="primary" bindtap="enterRecordingPage">Recording</button>
+  </view>-->
 </view>

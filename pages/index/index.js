@@ -37,5 +37,19 @@ Page({
         // complete
       }
     })
+  }, 
+  enterRecordingPage: function(){
+    wx.navigateTo({
+      url: '../recording/recording',
+      success: function(res){
+        // success
+      },
+      fail: function(res) {
+        // fail
+      },
+      complete: function(res) {
+        // complete
+      }
+    })
   }
 })

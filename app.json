@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/flashcard/flashcard"
+    "pages/flashcard/flashcard",
+    "pages/recording/recording"
   ],
   "window":{
     "backgroundTextStyle":"dark",
